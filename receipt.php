@@ -113,7 +113,7 @@ session_start();
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                     <address>
-                        <strong>FIRST AID</strong>
+                        <strong>BABY</strong>
 
                         <abbr title="Phone">P:</abbr> (213) 484-6829
                     </address>

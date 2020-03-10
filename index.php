@@ -57,7 +57,7 @@
 
             <nav class="site-navigation text-left ml-auto " role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="active"><a href="#" class="nav-link">Home</a></li>
 				
 		<!--		<li><a href="category.html" class="nav-link">Category</a>
 		<div class="sub-menu-1">
