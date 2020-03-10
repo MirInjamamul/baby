@@ -2,7 +2,7 @@
 
  session_start();
    // connect to the database
-   $db = mysqli_connect('localhost', 'root', '', 'firstaid');
+   $db = mysqli_connect('localhost', 'root', '', 'baby');
 
    $total_price = 0;
 

@@ -257,10 +257,10 @@ $result = mysqli_query($db, "SELECT * FROM product_list WHERE catagory='toy'");
 								echo "<a class='catagotie-head'>";
 								echo "<img src='uploads/".$row['image_name']."' >";
 
-								echo "<h3>".$row['product_name']."</h3></a>";
+								echo "<h4>Product ID : ".$row['product_id']."</h3><h4>Product Name : ".$row['product_name']."<h4>Price : ".$row['price']."</h4></h4></a>";
 								echo "<div class='caption'>";
 								echo "<p></p>";
-								echo "<a href='#' class='btn btn-default btn-transparent' role='button'>";
+								echo '<a href="order1.php?id='.$row['product_id'].'" class="btn btn-default btn-transparent" role="button">';
 								echo "<span>ORDER</span></a>";							
 
 							echo "</div></div></div>";
