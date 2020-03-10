@@ -180,52 +180,27 @@ $result = mysqli_query($db, "SELECT * FROM product_list WHERE catagory='pen'");
 			</div> <!-- End of /.navbar-header -->
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav nav-main">
+			<ul class="nav navbar-nav nav-main">
 						<li class="active"><a href="#">HOME</a></li>
-				<li><a href="bmi.php">BMI</a></li>
+				
 				<li class="dropdown">
 					<a href="">
-						HEALTHY FOOD
+						CATAGORY
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-					   <li><a  href="healthyFood.html">Good Health</a></li>
-						<li><a  href="hairfood.html">Hair</a></li>
-						<li><a  href="brainfood.html">Brain and Memory</a></li>
-						<li><a  href="skinfood.html">Healthy Skin</a></li>
-							<li><a  href="bloodfood.html">BLODD FLOW and CIRCULATION</a></li>
-							<li><a  href="eyefood.html">Healthy Eyes</a></li>
-							<li><a  href="kidneyfood.html">Healthy Kidney</a></li>
-							<li><a  href="liverfood.html">Healthy Liver</a></li>
-							<li><a  href="diabetesfood.html">CONTROL DIABETES</a></li>
-							<li><a  href="acidfood.html">ACID REFLUX</a></li>
-							<li><a  href="pressurefood.html">LOWER BLOOD PRESSURE</a></li>
+					   <li><a  href="toys.php">TOY</a></li>
+						<li><a  href="bags.php">BAG</a></li>
+						<li><a  href="ballons.php">BALLON</a></li>
+						<li><a  href="books.php">BOOK</a></li>
+							<li><a  href="cars.php">CAR</a></li>
+							<li><a  href="colorpen.php">COLOUR PEN</a></li>
+							<li><a  href="dolls.php">DOLL</a></li>
 					</ul>
 				</li> <!-- End of /.dropdown -->
-				<li class="dropdown">
-					<a href="">
-						UNHEALTHY FOOD
-						<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-					   <li><a  href="agavenectar.html">Agave nectar</a></li>
-						<li><a  href="lowfatyogurt.html">Low-fat yogurt</a></li>
-						<li><a  href="junkfood.html">Gluten-free junk foods</a></li>
-						<li><a  href="lowcarb.html">Low-carb junk foods</a></li>
-							<li><a  href="icecream.html">Ice cream</a></li>
-							<li><a  href="candybar.html">Candy bars</a></li>
-							<li><a  href="processedmeat.html">Processed meat</a></li>
-							<li><a  href="frencgfri.html">French fries and potato chips</a></li>
-							<li><a  href="pastry.html">Pastries, cookies, and cakes</a></li>
-							<li><a  href="friedfrilledboiledfood.html">Fried, grilled, or boiled food</a></li>
-							<li><a  href="breakfastcereal.html">Sweetened breakfast cereals</a></li>
-							<li><a  href="fruitjuice.html">Most fruit juices</a></li>
-							<li><a  href="whitebread.html">White bread</a></li>
-							<li><a  href="pizza.html">Pizzas</a></li>
-							<li><a  href="sugarydrink.html">Sugary drinks</a></li>
-					</ul>
-				</li> <!-- End of /.dropdown -->
-	  <li><a href="about.html">ABOUT</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+	  <li><a href="order.php">QUICK ORDER</a></li>
 					</ul> <!-- End of /.nav-main -->
 			</div>	<!-- /.navbar-collapse -->
 	</div>	<!-- /.container-fluid -->
